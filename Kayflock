@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Shhh",
+    Name = "KayFlock",
     LoadingTitle = "loading KayFlock",
     LoadingSubtitle = "by cqqv",
     ConfigurationSaving = {
@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
  })
 
  local MainTab = Window:CreateTab("Main", 17516480873) -- Title, Image
- local MainSection = MainTab:CreateSection("Load Shhh")
+ local MainSection = MainTab:CreateSection("Load KayFlock")
 
  Rayfield:Notify({
     Title = "You Executed Mini KayFlock",
@@ -47,6 +47,6 @@ local Window = Rayfield:CreateWindow({
  local Button = MainTab:CreateButton({
     Name = "Shhh",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/mAMe54xM"))();
+        loadstring(game:HttpGet("https://pastebin.com/raw/MU9zYkuU"))();
     end,
  })
